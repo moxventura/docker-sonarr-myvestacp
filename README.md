@@ -27,10 +27,10 @@ Configuration of jackett needs to be done by either temporary expose the ports, 
 ### Configuration
 
 To be able to configure jackett, take down the containers using `docker-compose down`. And add the following to the compose file under `jacket:`:
-``yml
+```yml
     ports:
       - 9117:9117
-``
+```
 This will forward port 9117 and you'll be able to configure jackett using http.
 
 When all is configured you can remove the ports again and do a `docker-compose down` and `docker-compose up -d` to hide jackett from the world.
