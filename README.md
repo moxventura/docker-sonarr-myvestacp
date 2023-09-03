@@ -1,7 +1,7 @@
 # Dockerfile and vestacp templates for sonarr
 
 ## _(my)vestacp config and docker-compose file to run sonarr and jackett using SSL_
-These are files to help setup [sonarr](https://sonarr.tv/) and [jackett](https://github.com/Jackett/Jackett) using the [linuxserver.io](https://www.linuxserver.io/) docker images run on a vestacp machine.
+These are files to help setup [sonarr](https://sonarr.tv/) and [jackett](https://github.com/Jackett/Jackett) using the [linuxserver.io](https://www.linuxserver.io/) docker images run on a [vestacp](https://myvestacp.com/) machine.
 
 This will allow you to setup a server where you can search and monitor tv show torrents using sonarr on your own domain with vesta managed SSL.
 
