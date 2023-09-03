@@ -18,9 +18,9 @@ Configuration of jackett needs to be done by either temporary expose the ports, 
 
 1. Install [docker](https://docs.docker.com/engine/install/debian/) on your vesta machine
 2. Install [docker-compose](https://docs.docker.com/compose/install/) on your vesta machine
-3. Copy the [docker-compose.yml] file to a directory of your choice
+3. Copy the [docker-compose.yml](docker-compose.yml) file to a directory of your choice
 5. Start the sonarr and jacket containers using `docker-compose up -d --build` in the directory where your docker-compose.yml is located
-6. Copy the [vesta-nginx-template] files to your vesta template directory `/usr/local/vesta/data/templates/web/nginx/`
+6. Copy the [vesta-nginx-template](vesta-nginx-template) files to your vesta template directory `/usr/local/vesta/data/templates/web/nginx/`
 7. Create a new site in vestacp, enable SSL and use the `sonarr-8989` proxy template
 8. If jackett is configured you can add it to sonarr using it's internal docker hostname, eg: `http://jackett:9117/api/v2.0/indexers/eztv/results/torznab/`
 
