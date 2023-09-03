@@ -10,7 +10,7 @@ services:
       - AUTO_UPDATE=true
     volumes:
       - ./jackett_config:/config
-      - ./jacket_blackhole:/downloads
+      - ./jackett_blackhole:/downloads
     restart: always
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
