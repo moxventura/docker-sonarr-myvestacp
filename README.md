@@ -10,7 +10,6 @@ This will allow you to setup a server where you can search and monitor tv show t
 This configuration will create the following structure:
 
 ![vestacp sonar jackett overview](./sonarr-jackett.svg)
-<img src="./sonarr-jackett.svg">
 
 Only allowing https to connect to sonarr. Jackett will only be accessible to sonarr and the ports will not be exposed.
 Configuration of jackett needs to be done by either temporary expose the ports, or preconfigure somewhere else and copy the files to the jackett_config directory.
